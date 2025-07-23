@@ -1,0 +1,487 @@
+/* media query screen size */
+/* extra small */
+@media (max-width: 575.98px) {
+    .toTop {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+
+    /***** Common Section & Parts *****/
+    .common_section {
+        padding: 50px 0;
+    }
+
+    .common_title h2 {
+        font-size: 25px;
+    }
+
+    .banner,
+    .about,
+    .goal,
+    .server,
+    .packages {
+        padding-bottom: 0;
+    }
+
+    /***** Common Section & Parts *****/
+    /* Banner section */
+    .banner {
+        min-height: 80vh;
+        padding-top: 70px;
+    }
+
+    .banner .title h1 {
+        font-size: 30px;
+    }
+
+    .banner .title p {
+        margin-top: 100px;
+        color: #ffffff;
+    }
+
+    .banner .title .button {
+        width: 150px;
+
+    }
+
+    /* Banner section */
+    /* * About Section  * */
+
+    .about .a_text h3 {
+        font-size: 22px;
+        text-align: start !important;
+    }
+
+    .icons i {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    /* * About Section  * */
+
+    /* * Server Section * */
+    .server .s_server {
+        margin-top: 20px;
+    }
+
+    .s_server h5 {
+        font-size: 25px;
+    }
+
+    /* * Server Section * */
+
+    /* * Package Section * */
+    .single_package {
+        margin-top: 20px;
+    }
+
+    /* * Package Section * */
+
+    .area .icons i {
+        font-size: 25px;
+    }
+
+    .area .icons h2 {
+        font-size: 18px;
+    }
+
+}
+
+/* small */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .toTop {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+
+    /***** Common Section & Parts *****/
+    .common_section {
+        padding: 50px 0;
+    }
+
+    .common_title h2 {
+        font-size: 30px;
+    }
+
+    .banner,
+    .about,
+    .goal,
+    .server,
+    .packages {
+        padding-bottom: 0;
+    }
+
+    /***** Common Section & Parts *****/
+    /* Banner section */
+    .banner {
+        min-height: 80vh;
+        padding-top: 80px;
+    }
+
+    .banner .title h1 {
+        font-size: 50px;
+    }
+
+    .banner .title p {
+        margin-top: 100px;
+        color: #ffffff;
+    }
+
+    .banner .title .button {
+        width: 150px;
+
+    }
+
+    /* Banner section */
+    /* * About Section  * */
+
+    .about .a_text h3 {
+        font-size: 22px;
+        text-align: start !important;
+    }
+
+    .icons i {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    /* * About Section  * */
+
+    /* * Server Section * */
+    .server .s_server {
+        margin-top: 30px;
+    }
+
+    .s_server h5 {
+        font-size: 25px;
+    }
+
+    /* * Server Section * */
+
+    /* * Package Section * */
+    .single_package {
+        width: 250px;
+        margin-top: 30px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 8px;
+        background: linear-gradient(45deg, var(--blue), var(--primary-color));
+        box-shadow: 0 0 15px #0e161a45;
+
+        & h5 {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 20px;
+
+            & span {
+                color: var(--yellow);
+            }
+        }
+    }
+
+    /* * Package Section * */
+
+    .area .icons i {
+        font-size: 25px;
+    }
+
+    .area .icons h2 {
+        font-size: 18px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .toTop {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+
+    /***** Common Section & Parts *****/
+    .common_section {
+        padding: 60px 0;
+    }
+
+    .common_title h2 {
+        font-size: 35px;
+    }
+
+    .banner,
+    .about,
+    .goal,
+    .server,
+    .packages {
+        padding-bottom: 0;
+    }
+
+    /***** Common Section & Parts *****/
+    /** Banner section **/
+    .banner {
+        min-height: 80vh;
+        padding-top: 80px;
+    }
+
+    .banner .title h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .banner .title p {
+        margin-top: 100px;
+        color: #ffffff;
+    }
+
+    .banner .title .button {
+        width: 150px;
+
+    }
+
+    /*** Banner section */
+    /* * About Section  * */
+    .about .a_img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .about .a_text h3 {
+        font-size: 22px;
+        text-align: start !important;
+    }
+
+    .icons i {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    /* * About Section  * */
+
+    /* * Server Section * */
+    .server .s_server {
+        margin-top: 30px;
+    }
+
+    .s_server h5 {
+        font-size: 25px;
+    }
+
+    /* * Server Section * */
+
+    /* * Package Section * */
+    .single_package {
+        width: 250px;
+        margin-top: 30px;
+        padding: 15px;
+        text-align: start;
+
+        & h5 {
+            margin-bottom: 0;
+            font-size: 17px;
+
+            & span {
+                color: var(--yellow);
+            }
+        }
+    }
+
+    /* * Package Section * */
+    /* * Area Section * */
+    .area .icons i {
+        font-size: 30px;
+    }
+
+    .area .icons h2 {
+        font-size: 20px;
+    }
+
+    /* * Area Section * */
+}
+
+/* large */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /***** Common Section & Parts *****/
+    .common_section {
+        padding: 80px 0;
+    }
+
+    .common_title h2 {
+        font-size: 35px;
+    }
+
+    .banner,
+    .about,
+    .goal,
+    .server,
+    .packages {
+        padding-bottom: 0;
+    }
+
+    /***** Common Section & Parts *****/
+    /** Banner section **/
+    .banner {
+        min-height: 80vh;
+        padding-top: 90px;
+    }
+
+    .banner .title h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .banner .title p {
+        margin-top: 100px;
+        color: #ffffff;
+    }
+
+    .banner .title .button {
+        width: 150px;
+
+    }
+
+    /*** Banner section */
+    /* * About Section  * */
+    .about .a_img {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    .about .a_text h3 {
+        font-size: 30px;
+        text-align: start !important;
+    }
+
+    .icons i {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    /* * About Section  * */
+    /* * Area Section * */
+    .area .icons i {
+        font-size: 30px;
+    }
+
+    .area .icons h2 {
+        font-size: 25px;
+    }
+
+    /* * Area Section * */
+    /* * Package Section * */
+    .single_package {
+        width: 250px;
+        margin-top: 30px;
+        padding: 15px;
+        text-align: start;
+
+        & h5 {
+            margin-bottom: 0;
+            font-size: 17px;
+
+            & span {
+                color: var(--yellow);
+            }
+        }
+    }
+
+    /* * Package Section * */
+}
+
+/* extra large */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /***** Common Section & Parts *****/
+    .common_section {
+        padding: 80px 0;
+    }
+
+    .common_title h2 {
+        font-size: 35px;
+    }
+
+    .banner,
+    .about,
+    .goal,
+    .server,
+    .packages {
+        padding-bottom: 0;
+    }
+
+    /***** Common Section & Parts *****/
+    /** Banner section **/
+    .banner {
+        min-height: 80vh;
+        padding-top: 100px;
+    }
+
+    .banner .title h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .banner .title p {
+        margin-top: 100px;
+        color: #ffffff;
+    }
+
+    /*** Banner section */
+    /* * About Section  * */
+    .about .a_img {
+        width: 450px;
+        height: 450px;
+    }
+
+
+    .about .a_text h3 {
+        font-size: 30px;
+        /* text-align: start !important; */
+    }
+
+    .icons i {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    /* * About Section  * */
+    /* * Area Section * */
+    .area .icons i {
+        font-size: 30px;
+    }
+
+    .area .icons h2 {
+        font-size: 25px;
+    }
+
+    /* * Area Section * */
+    /* * Package Section * */
+    .single_package {
+        width: 250px;
+        margin-top: 30px;
+        padding: 15px;
+        text-align: start;
+
+        & h5 {
+            margin-bottom: 0;
+            font-size: 17px;
+
+            & span {
+                color: var(--yellow);
+            }
+        }
+    }
+
+    /* * Package Section * */
+}
+
+/* extra extra large */
+@media (min-width: 1400px) {}
